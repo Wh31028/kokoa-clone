@@ -46,3 +46,8 @@ input:focus{
 	outline: none;
 
 }
+
+.a{
+    color:inherut;
+	text-decoration: none;
+}

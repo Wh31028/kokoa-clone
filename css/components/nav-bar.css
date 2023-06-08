@@ -1,0 +1,43 @@
+.nav{
+    position: fixed;
+    bottom:0;
+    width:100%;
+    background-color: #f9f9fa;
+    padding:15px 40px;
+    box-sizing: border-box; /*padding을 추가해도 박스 사이즈를 커지지 않게 해줌*/
+    border-top:1px solid rgba(121,121,121,0.2);
+}
+.nav__list{
+    display:flex;
+    justify-content: space-between;
+}
+.nav__link{
+    color:#2e363e;
+    position: relative;
+}
+.nav__notification{
+    background-color: tomato;
+    width:20px;
+    height:20px;
+    border-radius: 10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-weight: 600;
+    position: absolute; /*이것을 쓸려면 아빠에게 relative를 줘야함*/
+    left:20px;
+    bottom: 15px;
+}
+.nav__notification2{
+    background-color: tomato;
+    width:5px;
+    height:5px;
+    border-radius: 2.5px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left:27px;
+    bottom: 25px;
+}
