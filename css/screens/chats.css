@@ -1,0 +1,14 @@
+.chats-screen{
+    padding:0px var(--horizontal-space);
+}
+.notification {
+    background-color: tomato;
+    width: 20px;
+    height: 20px;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
