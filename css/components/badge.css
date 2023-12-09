@@ -9,3 +9,18 @@
     align-items: center;
     font-weight: 600;
 }
+.setting-alert{
+    position: relative;
+}
+.alert{
+    position: absolute;
+    left: 25px;
+    bottom:20px;
+    background-color: tomato;
+    width: 5px;
+    height: 5px;
+    border-radius: 2.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
