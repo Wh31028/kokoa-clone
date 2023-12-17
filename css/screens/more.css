@@ -32,9 +32,17 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 10px;
+    transition:transform 1s linear;
+}
+.more-suggestions__icon-image:hover{
+    transform:scale(2);
 }
 
-.more-suggestions__icon-image i{
-    font-size: 32px;
-    color: white;
+@keyframes scaleUpImg{
+    from{
+        transform:none;
+    }
+    to{
+        transform:scale(2);
+    }
 }
